@@ -1,0 +1,176 @@
+body {
+  text-align: center;
+  margin: 0 30rem;
+  font-family: "Kavivanar", cursive;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.wrapper {
+  /* border: 5px solid black; */
+  /* background-image: url(https://images.pexels.com/photos/1591447/pexels-photo-1591447.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500); */
+  background-color: #89cff1;
+  /* border-radius: 1rem; */
+  border: 0.3rem solid black;
+}
+
+.floatleft {
+  float: left;
+  width: 10rem;
+  margin-left: 2rem;
+  border-radius: 1rem;
+  border: 0.3rem solid #191971;
+}
+
+.avatar::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* div {
+  border: 5px solid red;
+} */
+
+header {
+  padding: 0.313rem;
+  /* border-bottom: 0.2rem solid red; */
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  /* padding-bottom: 20rem; */
+  background-color: #b3cee1;
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+}
+
+.textavatar h1 {
+  margin: 0;
+  color: #080785;
+  font-style: normal;
+  font-size: 2rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.textavatar p {
+  margin-top: -0.2rem;
+  text-align: center;
+}
+.icon {
+  width: 3rem;
+  float: right;
+  margin-right: 2rem;
+  margin-top: 0.5rem;
+}
+
+section {
+  font-size: 3rem;
+  text-align: left;
+  border-top: 0.2rem solid black;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.box {
+  /* border: 0.5rem solid red; */
+  border: 0.5rem solid #191971;
+  border-radius: 1rem;
+  margin: 1.5rem 2.5rem;
+}
+
+.box::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.box1 {
+  background-color: #506ad4;
+}
+
+.box1 a:hover {
+  background-color: #191971;
+  /* border-radius: 1rem; */
+}
+
+.box2 {
+  background-color: #bb2020;
+}
+
+.box2 a:hover {
+  background-color: black;
+  /* border-radius: 1rem; */
+}
+
+.box3 {
+  background-color: #0097f7;
+}
+
+.box3 a:hover {
+  background-color: black;
+  /* border-radius: 1rem; */
+}
+
+p {
+  font-style: italic;
+}
+
+.textavatar {
+  /* margin-left: 0.3rem; */
+  margin-right: 3rem;
+  color: #002248;
+  font-size: 1.1rem;
+  /* border: 0.3rem solid purple; */
+}
+
+footer {
+  background-color: black;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 5rem;
+  margin-left: 2rem;
+  font-size: 1rem;
+  border-top: 3px solid black;
+}
+li {
+  /* border: 3px solid green; */
+  display: inline-block;
+}
+
+.list1 {
+  margin-right: 1.5rem;
+}
+
+.list2,
+.list3 {
+  margin: 0 1.5rem;
+}
+
+.list4 {
+  margin-left: 1.5rem;
+}
+
+a {
+  color: #fffce6;
+
+  display: block;
+  /* border: 0.3rem solid yellow; */
+  margin: 0;
+  padding: 1.2rem 0;
+}
+
+strong {
+  padding-left: 1.5rem;
+  font-style: normal;
+}
