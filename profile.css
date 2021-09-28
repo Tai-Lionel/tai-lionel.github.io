@@ -11,10 +11,11 @@ body {
 }
 
 .wrapper {
-  /* border: 5px solid black; */
-  /* background-image: url(https://images.pexels.com/photos/1591447/pexels-photo-1591447.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500); */
-  background-color: #89cff1;
-  /* border-radius: 1rem; */
+  border: 5px solid black;
+  background-image: url(https://images.pexels.com/photos/1591447/pexels-photo-1591447.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+  /* background-color: #89cff1; */
+  border-radius: 1rem;
+
   border: 0.3rem solid black;
 }
 
