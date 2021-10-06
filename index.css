@@ -1,9 +1,10 @@
 body {
   box-sizing: border-box;
-  font-size: 1.2rem;
-  font-family: Arial, Helvetica, sans-serif;
-  color: black;
-  background-color: #b97637;
+  font-size: 1.5rem;
+  font-family: "Ephesis", cursive;
+  font-weight: bolder;
+  color: white;
+  background-color: black;
   /* border: 3px solid red; */
   width: 100%;
 }
@@ -11,15 +12,16 @@ body {
 header {
   /* border: 5px solid black; */
   text-align: center;
-  background-color: #121317;
+  background-color: black;
   color: white;
 }
 
 nav {
   /* border: 5px solid blue; */
   flex-basis: 10%;
-  background-color: #b97637;
+  background-color: black;
   margin-top: 3rem;
+  color: #aaaaaa;
 }
 
 nav ul {
@@ -33,24 +35,25 @@ nav li {
 nav li a {
   display: block;
   text-decoration: none;
-  color: blue;
+  color: #aaaaaa;
   padding: 0.5rem;
 }
 nav a:hover {
-  background-color: black;
+  /* background-color: black; */
   color: white;
 }
 section {
   /* border: 5px solid red; */
   flex-basis: 50%;
   margin: 0 5%;
-  background-color: #fecd7d;
+  background-color: white;
+  color: black;
 }
 
 address {
   /* border: 5px solid orange; */
   flex-basis: 30%;
-  background-color: #b97637;
+  background-color: black;
   margin-top: 1rem;
 }
 
@@ -72,7 +75,7 @@ nav ul {
 }
 
 footer {
-  background-color: #000000;
+  background-color: black;
   /* border: 3px solid blue; */
   margin-top: 2rem;
 }
@@ -183,4 +186,33 @@ p {
 
 .paragraph {
   margin-bottom: 1rem;
+}
+
+.facebook-icon-ul {
+  /* border: 1px solid yellow; */
+}
+
+.facebook-icon-li {
+  /* border: 1px solid blue; */
+  margin-bottom: -3.5px;
+  margin-right: 2.5rem;
+}
+
+.facebook-icon-a {
+  /* border: 1px solid red; */
+  margin: 0;
+}
+
+.facebook-icon {
+  /* border: 1px solid orange; */
+  margin: 0;
+  display: block;
+}
+
+hr {
+  border-top: 1px solid #353839;
+}
+
+br {
+  background-color: red;
 }
