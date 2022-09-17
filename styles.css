@@ -1,3 +1,9 @@
+body {
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
 #image-container {
     position: relative;
     color: white;
@@ -82,11 +88,31 @@ ul {
 
 li {
     color: white;
+    padding: 5%;
 }
 
 li a {
     text-decoration: none;
     color: white;
     display: block;
-    padding: 50px;
+    
+}
+
+/* phone */
+@media (max-width:414px) {
+    #avatar {
+        width: 20%;
+        position: absolute;
+        top: 50%;
+        left: 30%;
+        transform: translate(-50%,-50%);
+        border-radius: 50%;
+    }
+    
+    #inform {
+        position: absolute;
+        top: 43%;
+        left: 43%;
+        width: 50%;
+    }
 }
